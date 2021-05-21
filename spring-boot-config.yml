@@ -1,0 +1,4 @@
+app:
+ name: Sathish
+ greeting:
+  message: "Welcome ${app.name} from spring boot config yml"
