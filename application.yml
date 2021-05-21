@@ -1,0 +1,13 @@
+app:
+ name: Sathish
+ greeting:
+  message: "Welcome ${app.name} from config server"
+ list: "Elephant, Green, Horse"
+ map: "(animal: elephant,bird: kingfisher,flower: jasmine,season: spring)"
+
+db:
+ connection: "(connection: http://heliohost...,username: github,password: 8888)"
+ host: github
+ port: 8888
+
+management.endpoints.web.exposure.include: "*"
