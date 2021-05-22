@@ -1,8 +1,8 @@
 app:
  name: Sathish
  greeting:
-  message: "Welcome ${app.name} from config server"
- list: "Elephant, Green, Horse"
+  message: "New updated Welcome ${app.name} from config server"
+ list: "Dog, Elephant, Green, Horse"
  map: "(animal: elephant,bird: kingfisher,flower: jasmine,season: spring)"
 
 db:
